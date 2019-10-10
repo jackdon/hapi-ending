@@ -25,7 +25,8 @@ Original plugin by [Antony Jones](https://github.com/antony/), updated for Hapi 
         baseUrl: 'http://your.domain:1234' // defaults to protocol-less server host+port,
         enabled: true // defaults to false,
         assetsPath: '/mount-point-for-plugin-assets' // defaults to 'assets' - change if this conflicts with your own routes,
-        logoUrl: 'http://example.net/logo.webp'
+        logoUrl: 'http://example.net/logo.webp',
+        lang: 'zh-CN', // change `root.handlebars` tempelete language
     }
 
 ## Live Demo
