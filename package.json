@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/desirable-objects/hapi-ending"
+    "url": "https://github.com/jackdon/hapi-ending"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
