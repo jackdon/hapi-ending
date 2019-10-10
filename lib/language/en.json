@@ -1,0 +1,12 @@
+{
+  "key": "Key",
+  "http_request": "HTTP REQUEST",
+  "tags": "TAGS",
+  "type": "Type",
+  "description": "Description",
+  "allowed_values": "Allowed Values",
+  "Query String": "Query String",
+  "JSON Payload": "JSON Payload",
+  "search": "Search",
+  "documentation_based_on_slate": "Documentation based on slate"
+}

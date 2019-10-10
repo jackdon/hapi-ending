@@ -9,7 +9,7 @@ const server = Hapi.server({
 
 server.register([{
   plugin: require('../plugin'),
-  options: { enabled: true }
+  options: { enabled: true, logoUrl: 'https://sso.mzhpan.cn/static/images/xao-logo.png', lang: 'en' }
 }]).then(async () => {
   server.route(require('./routes/example.js'))
 

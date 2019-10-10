@@ -33,13 +33,13 @@
             <a href="#" data-language-name="javascript">javascript</a>
         </div>
         <div class="search">
-            <input type="text" class="search" id="input-search" placeholder="Search">
+            <input type="text" class="search" id="input-search" placeholder="{{lang.search}}">
         </div>
         <ul class="search-results"></ul>
         <div id="toc">
         </div>
         <ul class="toc-footer">
-            <li><a href='http://github.com/tripit/slate'>Documentation based on Slate</a>
+            <li><a href='http://github.com/tripit/slate'>{{lang.documentation_based_on_slate}}</a>
             </li>
         </ul>
     </div>
@@ -81,10 +81,10 @@
 
               <p class="endpoint-description">{{description}}</p>
 
-              <h3>HTTP REQUEST</h3>
+              <h3>{{../../lang.http_request}}</h3>
               <p class="url-mapping"><code prettyprint="true"><span class="method">{{@key}}</span> {{@../key}}</code></p>
 
-              <h3>TAGS</h3>
+              <h3>{{../../lang.tags}}</h3>
               <ul class="tags">
                   {{#each tags}}
                   <li class="tag">{{this}}</li>
@@ -96,10 +96,10 @@
                 <table class="{{@key}}-table">
                     <thead>
                         <tr>
-                            <td>Key</td>
-                            <td>Type</td>
-                            <td>Description</td>
-                            <td>Allowed Values</td>
+                            <td>{{../../../lang.key}}</td>
+                            <td>{{../../../lang.type}}</td>
+                            <td>{{../../../lang.description}}</td>
+                            <td>{{../../../lang.allowed_values}}</td>
                         </tr>
                     </thead>
                     <tbody>

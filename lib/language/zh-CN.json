@@ -1,0 +1,12 @@
+{
+  "key": "键",
+  "http_request": "HTTP请求",
+  "tags": "标签",
+  "type": "类型",
+  "description": "描述",
+  "allowed_values": "允许值",
+  "Query String": "查询字符串",
+  "JSON Payload": "JSON载荷",
+  "search": "搜索",
+  "documentation_based_on_slate": "文档基于slate"
+}
