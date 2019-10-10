@@ -1,5 +1,5 @@
 {
-  "name": "hapi-ending-with-i18n",
+  "name": "@brucexu/hapi-ending",
   "version": "1.0.1",
   "description": "Creates documentation of the endpoints of an application",
   "keywords": [
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackdon/hapi-ending"
+    "url": "git+https://github.com/jackdon/hapi-ending.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
@@ -60,5 +60,15 @@
       "before",
       "beforeEach"
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jackdon/hapi-ending/issues"
+  },
+  "homepage": "https://github.com/jackdon/hapi-ending#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
 }
